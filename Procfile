@@ -1,1 +1,1 @@
-web: au run
+web: au run --watch
