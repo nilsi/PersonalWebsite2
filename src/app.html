@@ -1,0 +1,80 @@
+<template>
+    <require from ="./main.css"></require>
+    <div class="inner">
+        <div class="intro">
+            <h1>Past <i class="fa fa-code" aria-hidden="true"></i> experience</h1>
+            <p class="header">Hi, I'm Nicklas. Heres some of the projects I have been working on lately</p>
+        </div>
+        <div class="center">
+        	<div class="slider" data-pos="${pos}">
+        		<div class="slider__slides">
+                    <div class="slider__slide">
+                        <div class="left-section">
+                            <h2>Spend Android Application</h2>
+                            <p>Curated well designed products from all over internet. Made with <span>Meteor</span> and <span>SemanticUI</span></p>
+                        </div>
+                        <div class="right-section">
+                            <image src="/assets/spend_android.jpeg"></image>
+                        </div>
+                    </div>
+        			<div class="slider__slide">
+                        <div class="left-section">
+                            <h2>Repick</h2>
+                            <p>Curated well designed products from all over internet. Made with <span>Meteor</span> and <span>SemanticUI</span></p>
+                        </div>
+                        <div class="right-section">
+                            <image src="/assets/repick.png"></image>
+                        </div>
+                    </div>
+        			<div class="slider__slide">
+                        <div class="left-section">
+                            <h2>Spendwallet Website</h2>
+                            <p>Curated well designed products from all over internet. Made with <span>Meteor</span> and <span>SemanticUI</span></p>
+                        </div>
+                        <div class="right-section">
+                            <image src="/assets/spend_website.jpeg"></image>
+                        </div>
+                    </div>
+        			<div class="slider__slide">
+                        <div class="left-section">
+                            <h2>Tangram Browser</h2>
+                            <p>Curated well designed products from all over internet. Made with <span>Meteor</span> and <span>SemanticUI</span></p>
+                        </div>
+                        <div class="right-section">
+                            <image src="/assets/tangram.png"></image>
+                        </div>
+                    </div>
+                    <div class="slider__slide">
+                        <div class="left-section">
+                            <h2>CoursePortal</h2>
+                            <p>CoursePortal was a webpage for students. The goal is to provide additional user-based course information that universities can't provide.</p>
+                        </div>
+                        <div class="right-section">
+                            <image src="http://www.nicklasnilsson.com/images/d9dc2086.mimswell.png"></image>
+                        </div>
+                    </div>
+                    <div class="slider__slide">
+                        <div class="left-section">
+                            <h2>CoursePortal</h2>
+                            <p>CoursePortal was a webpage for students. The goal is to provide additional user-based course information that universities can't provide.</p>
+                        </div>
+                        <div class="right-section">
+                            <image src="http://www.nicklasnilsson.com/images/d9dc2086.mimswell.png"></image>
+                        </div>
+                    </div>
+        		</div>
+        		<div class="slider__dots">
+        			<a href="#" class="slider__indicator ${direction}"></a>
+        			<a href="#" class="slider__dot" click.trigger="dot(0)"></a>
+        			<a href="#" class="slider__dot" click.trigger="dot(1)"></a>
+        			<a href="#" class="slider__dot" click.trigger="dot(2)"></a>
+        			<a href="#" class="slider__dot" click.trigger="dot(3)"></a>
+                    <a href="#" class="slider__dot" click.trigger="dot(4)"></a>
+                    <a href="#" class="slider__dot" click.trigger="dot(5)"></a>
+        		</div>
+        	</div>
+        </div>
+        <h3>Let's Build Something Together</h3>
+        <p class="contact">Whatever you have in mind, don't hesitate to contact me</p>
+    </div>
+</template>
