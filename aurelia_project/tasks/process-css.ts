@@ -7,10 +7,6 @@ import {build} from 'aurelia-cli';
 export default function processCSS() {
   return gulp.src(project.cssProcessor.source)
     .pipe(sourcemaps.init())
-    .pipe(sass({
-      includePaths: [
-        'node_modules/font-awesome/scss'
-      ]
-    }).on('error', sass.logError))
+    .pipe(sass().on('error', sass.logError))
     .pipe(build.bundle());
 };
